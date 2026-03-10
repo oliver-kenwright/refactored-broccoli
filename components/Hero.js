@@ -15,7 +15,7 @@ export default function Hero() {
       <div className="mx-auto max-w-6xl">
         <Reveal>
           <h1 className="font-display text-3xl md:text-4xl lg:text-5xl leading-tight max-w-4xl">
-            I ship products people trust and actually use.
+            I ship products people <span className="text-primary">trust</span> and actually <span className="text-primary">use</span>.
           </h1>
         </Reveal>
 
