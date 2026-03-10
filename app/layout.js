@@ -24,11 +24,11 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata = {
   title: "Oliver Kenwright — Senior Product Manager",
   description:
-    "Product leader who turns complex problems into clear decisions and ships experiences people trust and actually use.",
+    "Hi my name is Oli, a Melbourne-based Product Manager perfecting the art of Pizza",
   openGraph: {
     title: "Oliver Kenwright — Senior Product Manager",
     description:
-      "Product leader who turns complex problems into clear decisions and ships experiences people trust and actually use.",
+      "Hi my name is Oli, a Melbourne-based Product Manager perfecting the art of Pizza",
     type: "website",
   },
 };
