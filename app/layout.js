@@ -1,4 +1,5 @@
 import { DM_Serif_Display, Sora, JetBrains_Mono } from "next/font/google";
+import PasswordGate from "@/components/PasswordGate";
 import "./globals.css";
 
 const dmSerif = DM_Serif_Display({
@@ -36,7 +37,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${dmSerif.variable} ${sora.variable} ${jetbrainsMono.variable}`}>
       <body className="antialiased">
-        {children}
+        <PasswordGate>
+          {children}
+        </PasswordGate>
       </body>
     </html>
   );
