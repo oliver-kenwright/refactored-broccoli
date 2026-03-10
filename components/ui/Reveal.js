@@ -14,7 +14,7 @@ export default function Reveal({ children, className = "", delay = 0 }) {
           observer.unobserve(entry.target);
         }
       },
-      { threshold: 0.1, rootMargin: "0px 0px -50px 0px" }
+      { threshold: 0.15 }
     );
 
     if (ref.current) observer.observe(ref.current);
@@ -24,8 +24,13 @@ export default function Reveal({ children, className = "", delay = 0 }) {
   return (
     <div
       ref={ref}
-      className={`${isVisible ? "reveal-visible" : "reveal-hidden"} ${className}`}
-      style={{ animationDelay: `${delay}s` }}
+      className={className}
+      style={{
+        opacity: isVisible ? 1 : 0,
+        transform: isVisible ? "translateY(0)" : "translateY(20px)",
+        transition: `opacity 0.5s ease-out ${delay}s, transform 0.5s ease-out ${delay}s`,
+        willChange: "opacity, transform",
+      }}
     >
       {children}
     </div>

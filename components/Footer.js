@@ -6,9 +6,6 @@ export default function Footer() {
           &copy; 2026 Oliver K.
         </span>
         <span className="font-mono text-xs text-text-muted">
-          Built with Claude Code
-        </span>
-        <span className="font-mono text-xs text-text-muted">
           Melbourne, AU
         </span>
       </div>

@@ -14,13 +14,8 @@ export default function Hero() {
     <section className="pt-32 pb-20 md:pt-40 md:pb-28 px-6">
       <div className="mx-auto max-w-6xl">
         <Reveal>
-          <h1 className="font-display text-4xl md:text-5xl lg:text-6xl leading-tight max-w-4xl">
-            Product leader who turns{" "}
-            <span className="text-primary">complex problems</span> into{" "}
-            <span className="text-primary">clear decisions</span> and ships
-            experiences people{" "}
-            <span className="text-primary">trust</span> and actually{" "}
-            <span className="text-primary">use</span>.
+          <h1 className="font-display text-3xl md:text-4xl lg:text-5xl leading-tight max-w-4xl">
+            I ship products people trust and actually use.
           </h1>
         </Reveal>
 
