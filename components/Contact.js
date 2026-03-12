@@ -14,8 +14,7 @@ export default function Contact() {
 
         <Reveal delay={0.2}>
           <p className="mt-6 text-base md:text-lg text-text-muted">
-            Open to senior product roles at the intersection of product, data,
-            and AI.
+            Always up for a good conversation about product, data, and AI.
           </p>
         </Reveal>
 

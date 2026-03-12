@@ -48,9 +48,9 @@ export default function Hero() {
 
         <Reveal delay={0.4}>
           <p className="mt-12 text-base md:text-lg text-text-muted max-w-2xl leading-relaxed">
-            Open to senior product roles at the intersection of product, data,
-            and AI. Currently leading digital product at Bupa Health Services,
-            Melbourne.
+            Senior PM at Bupa Health Services, Melbourne. I work at the
+            intersection of product, data, and AI — always up for a good
+            conversation about what&apos;s next.
           </p>
         </Reveal>
       </div>
