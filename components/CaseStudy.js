@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Reveal from "./ui/Reveal";
+import ImageSlider from "./ui/ImageSlider";
 
 const caseStudies = [
   {
@@ -11,6 +12,7 @@ const caseStudies = [
     period: "2023 \u2014 Present",
     accent: "accent-gold",
     accentBorder: "border-accent-gold",
+    accentBg: "bg-accent-gold",
     headline: "Tripled digital\u2019s share of a $500m+ dental business",
     challenge:
       "Bupa\u2019s dental digital channel was an afterthought \u2014 5% revenue share, poor conversion, no self-serve capability, and a team under restructure pressure.",
@@ -26,6 +28,42 @@ const caseStudies = [
       { value: "+31%", label: "NPS improvement" },
       { value: "3x", label: "Logged-in booking rate" },
     ],
+    images: [
+      { src: "/images/case-studies/bupa/strategy.png", alt: "Problems & opportunities across the dental digital funnel" },
+      { src: "/images/case-studies/bupa/availability-filter.png", alt: "Availability filter & infrastructure upgrade detail" },
+      { src: "/images/case-studies/bupa/booking-release.png", alt: "Dental digital release — availability filter UX" },
+      { src: "/images/case-studies/bupa/portal-mockups.png", alt: "Dental portal mobile experience driving 3x bookings" },
+      { src: "/images/case-studies/bupa/dashboard.png", alt: "Bupa Dental digital report — conversion, bookings, and CES" },
+    ],
+  },
+  {
+    tag: "Consumer \u00B7 AI/ML",
+    company: "Momatu \u2192 Moments",
+    role: "Product Lead",
+    period: "2022 \u2014 2023",
+    accent: "accent-purple",
+    accentBorder: "border-accent-purple",
+    accentBg: "bg-accent-purple",
+    headline: "Pivoted a startup into an AI-powered photo experience",
+    challenge:
+      "An early-stage photo app struggling for product-market fit. No analytics, unclear value prop, and a CEO looking for a bold new direction.",
+    approach: [
+      "Defined 6-month outcome-driven strategy anchored to north star metric",
+      "Ran JTBD surveys, fake door tests, and Van Westendorp pricing research",
+      "Built ML-powered curation using ML Kit and Image Labelling API",
+      "Created end-to-end product development lifecycle from scratch",
+    ],
+    outcomes: [
+      { value: "+16%", label: "Weekly active uploaders" },
+      { value: "+30pp", label: "New user activation" },
+      { value: "12mo", label: "Funding secured" },
+      { value: "0\u21921", label: "Analytics stack" },
+    ],
+    images: [
+      { src: "/images/case-studies/momatu/curation.svg", alt: "ML-powered photo curation" },
+      { src: "/images/case-studies/momatu/jtbd.svg", alt: "JTBD research findings" },
+      { src: "/images/case-studies/momatu/activation.svg", alt: "New user activation funnel" },
+    ],
   },
   {
     tag: "Mobility \u00B7 Scale-up",
@@ -34,6 +72,7 @@ const caseStudies = [
     period: "2020 \u2014 2022",
     accent: "accent-teal",
     accentBorder: "border-accent-teal",
+    accentBg: "bg-accent-teal",
     headline:
       "Built the loyalty engine for Europe\u2019s largest e-scooter operator",
     challenge:
@@ -50,28 +89,10 @@ const caseStudies = [
       { value: "2x", label: "Referral growth" },
       { value: "\u20AC5.3m", label: "eMoped LTV" },
     ],
-  },
-  {
-    tag: "Consumer \u00B7 AI/ML",
-    company: "Momatu \u2192 Moments",
-    role: "Product Lead",
-    period: "2022 \u2014 2023",
-    accent: "accent-purple",
-    accentBorder: "border-accent-purple",
-    headline: "Pivoted a startup into an AI-powered photo experience",
-    challenge:
-      "An early-stage photo app struggling for product-market fit. No analytics, unclear value prop, and a CEO looking for a bold new direction.",
-    approach: [
-      "Defined 6-month outcome-driven strategy anchored to north star metric",
-      "Ran JTBD surveys, fake door tests, and Van Westendorp pricing research",
-      "Built ML-powered curation using ML Kit and Image Labelling API",
-      "Created end-to-end product development lifecycle from scratch",
-    ],
-    outcomes: [
-      { value: "+16%", label: "Weekly active uploaders" },
-      { value: "+30pp", label: "New user activation" },
-      { value: "12mo", label: "Funding secured" },
-      { value: "0\u21921", label: "Analytics stack" },
+    images: [
+      { src: "/images/case-studies/tier/loyalty.svg", alt: "TIER Miles loyalty program" },
+      { src: "/images/case-studies/tier/experiment.svg", alt: "A/B test experiment framework" },
+      { src: "/images/case-studies/tier/pricing.svg", alt: "Multi-modal revenue by vehicle type" },
     ],
   },
 ];
@@ -122,7 +143,7 @@ function CaseStudyCard({ study, index }) {
         {/* Expanded detail */}
         <div
           className={`overflow-hidden transition-all duration-500 ease-in-out ${
-            expanded ? "max-h-[800px] opacity-100" : "max-h-0 opacity-0"
+            expanded ? "max-h-[1200px] opacity-100" : "max-h-0 opacity-0"
           }`}
         >
           <div className="px-6 md:px-8 pb-8 border-t border-border pt-6">
@@ -173,12 +194,8 @@ function CaseStudyCard({ study, index }) {
               </div>
             </div>
 
-            {/* Image placeholder */}
-            <div className="mt-6 bg-bg-soft rounded-lg h-48 flex items-center justify-center border border-dashed border-border">
-              <span className="font-mono text-sm text-text-muted">
-                Screenshot coming soon
-              </span>
-            </div>
+            {/* Image slider */}
+            <ImageSlider images={study.images} accent={study.accentBg} />
           </div>
         </div>
       </div>

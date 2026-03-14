@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" rx="8" fill="#FFFFFF"/>
+  <text x="40" y="40" font-family="system-ui" font-size="18" font-weight="600" fill="#1A1A1A">Jobs-to-be-Done Research Summary</text>
+  <text x="40" y="60" font-family="system-ui" font-size="11" fill="#6B6B6B">n=127 survey responses + 18 depth interviews · Van Westendorp pricing included</text>
+
+  <!-- JTBD Cards -->
+  <rect x="40" y="84" width="224" height="164" rx="10" fill="#FFF" stroke="#7C3AED" stroke-width="2"/>
+  <rect x="40" y="84" width="224" height="40" rx="10" fill="#7C3AED" opacity="0.08"/>
+  <rect x="40" y="112" width="224" height="12" fill="#7C3AED" opacity="0.08"/>
+  <text x="60" y="110" font-family="system-ui" font-size="12" font-weight="600" fill="#7C3AED">Job #1 — Relive</text>
+  <text x="60" y="148" font-family="system-ui" font-size="11" fill="#1A1A1A">"When I have a quiet moment,</text>
+  <text x="60" y="164" font-family="system-ui" font-size="11" fill="#1A1A1A">I want to relive my best memories</text>
+  <text x="60" y="180" font-family="system-ui" font-size="11" fill="#1A1A1A">without scrolling through 1000s</text>
+  <text x="60" y="196" font-family="system-ui" font-size="11" fill="#1A1A1A">of photos."</text>
+  <rect x="60" y="216" width="44" height="20" rx="4" fill="#7C3AED" opacity="0.1"/>
+  <text x="68" y="230" font-family="monospace" font-size="9" font-weight="600" fill="#7C3AED">68%</text>
+  <text x="112" y="230" font-family="system-ui" font-size="9" fill="#6B6B6B">of respondents</text>
+
+  <rect x="280" y="84" width="224" height="164" rx="10" fill="#FFF" stroke="#7C3AED" stroke-width="1.5" opacity="0.7"/>
+  <rect x="280" y="84" width="224" height="40" rx="10" fill="#7C3AED" opacity="0.05"/>
+  <rect x="280" y="112" width="224" height="12" fill="#7C3AED" opacity="0.05"/>
+  <text x="300" y="110" font-family="system-ui" font-size="12" font-weight="600" fill="#7C3AED">Job #2 — Share</text>
+  <text x="300" y="148" font-family="system-ui" font-size="11" fill="#1A1A1A">"When something special happens,</text>
+  <text x="300" y="164" font-family="system-ui" font-size="11" fill="#1A1A1A">I want to create and share a</text>
+  <text x="300" y="180" font-family="system-ui" font-size="11" fill="#1A1A1A">beautiful story with the people</text>
+  <text x="300" y="196" font-family="system-ui" font-size="11" fill="#1A1A1A">who were there."</text>
+  <rect x="300" y="216" width="44" height="20" rx="4" fill="#7C3AED" opacity="0.1"/>
+  <text x="308" y="230" font-family="monospace" font-size="9" font-weight="600" fill="#7C3AED">52%</text>
+  <text x="352" y="230" font-family="system-ui" font-size="9" fill="#6B6B6B">of respondents</text>
+
+  <rect x="520" y="84" width="224" height="164" rx="10" fill="#FFF" stroke="#7C3AED" stroke-width="1" opacity="0.5"/>
+  <rect x="520" y="84" width="224" height="40" rx="10" fill="#7C3AED" opacity="0.03"/>
+  <rect x="520" y="112" width="224" height="12" fill="#7C3AED" opacity="0.03"/>
+  <text x="540" y="110" font-family="system-ui" font-size="12" font-weight="600" fill="#7C3AED">Job #3 — Preserve</text>
+  <text x="540" y="148" font-family="system-ui" font-size="11" fill="#1A1A1A">"I worry about losing my photos.</text>
+  <text x="540" y="164" font-family="system-ui" font-size="11" fill="#1A1A1A">I want them safe, organised,</text>
+  <text x="540" y="180" font-family="system-ui" font-size="11" fill="#1A1A1A">and accessible for my kids</text>
+  <text x="540" y="196" font-family="system-ui" font-size="11" fill="#1A1A1A">someday."</text>
+  <rect x="540" y="216" width="44" height="20" rx="4" fill="#7C3AED" opacity="0.1"/>
+  <text x="548" y="230" font-family="monospace" font-size="9" font-weight="600" fill="#7C3AED">31%</text>
+  <text x="592" y="230" font-family="system-ui" font-size="9" fill="#6B6B6B">of respondents</text>
+
+  <!-- Van Westendorp section -->
+  <rect x="40" y="268" width="340" height="208" rx="10" fill="#F7F7F5" stroke="#E5E5E5"/>
+  <text x="60" y="296" font-family="system-ui" font-size="13" font-weight="600" fill="#1A1A1A">Van Westendorp Pricing</text>
+  <text x="60" y="314" font-family="system-ui" font-size="10" fill="#6B6B6B">Acceptable price range for premium tier</text>
+
+  <!-- Price range viz -->
+  <rect x="80" y="336" width="280" height="4" rx="2" fill="#E5E5E5"/>
+  <rect x="140" y="336" width="120" height="4" rx="2" fill="#7C3AED"/>
+  <circle cx="140" cy="338" r="6" fill="#7C3AED"/>
+  <circle cx="260" cy="338" r="6" fill="#7C3AED"/>
+  <text x="140" y="364" font-family="monospace" font-size="10" fill="#7C3AED" text-anchor="middle">$2.99</text>
+  <text x="140" y="378" font-family="system-ui" font-size="9" fill="#6B6B6B" text-anchor="middle">Too cheap</text>
+  <text x="200" y="364" font-family="monospace" font-size="11" font-weight="700" fill="#1A1A1A" text-anchor="middle">$4.99</text>
+  <text x="200" y="378" font-family="system-ui" font-size="9" fill="#6B6B6B" text-anchor="middle">Optimal</text>
+  <text x="260" y="364" font-family="monospace" font-size="10" fill="#7C3AED" text-anchor="middle">$7.99</text>
+  <text x="260" y="378" font-family="system-ui" font-size="9" fill="#6B6B6B" text-anchor="middle">Too expensive</text>
+
+  <rect x="60" y="400" width="300" height="60" rx="6" fill="#FFF"/>
+  <text x="80" y="424" font-family="system-ui" font-size="11" fill="#1A1A1A">Recommendation: $4.99/mo premium</text>
+  <text x="80" y="442" font-family="system-ui" font-size="10" fill="#6B6B6B">78% WTP at this price · 12mo funding secured</text>
+
+  <!-- Fake door results -->
+  <rect x="400" y="268" width="356" height="208" rx="10" fill="#F7F7F5" stroke="#E5E5E5"/>
+  <text x="420" y="296" font-family="system-ui" font-size="13" font-weight="600" fill="#1A1A1A">Fake Door Test Results</text>
+  <text x="420" y="314" font-family="system-ui" font-size="10" fill="#6B6B6B">3 feature concepts tested · 2-week exposure</text>
+
+  <!-- Feature bars -->
+  <text x="420" y="346" font-family="system-ui" font-size="10" fill="#1A1A1A">AI Curation</text>
+  <rect x="520" y="336" width="180" height="14" rx="3" fill="#7C3AED"/>
+  <text x="708" y="348" font-family="monospace" font-size="10" fill="#FFF" text-anchor="end">34% CTR</text>
+
+  <text x="420" y="378" font-family="system-ui" font-size="10" fill="#1A1A1A">Story Creator</text>
+  <rect x="520" y="368" width="120" height="14" rx="3" fill="#7C3AED" opacity="0.6"/>
+  <text x="648" y="380" font-family="monospace" font-size="10" fill="#7C3AED" text-anchor="end">22% CTR</text>
+
+  <text x="420" y="410" font-family="system-ui" font-size="10" fill="#1A1A1A">Photo Book</text>
+  <rect x="520" y="400" width="50" height="14" rx="3" fill="#7C3AED" opacity="0.3"/>
+  <text x="578" y="412" font-family="monospace" font-size="10" fill="#6B6B6B" text-anchor="end">8% CTR</text>
+
+  <rect x="420" y="432" width="316" height="28" rx="6" fill="#7C3AED" opacity="0.08"/>
+  <text x="436" y="450" font-family="system-ui" font-size="10" font-weight="600" fill="#7C3AED">→ AI Curation selected as core differentiator</text>
+</svg>

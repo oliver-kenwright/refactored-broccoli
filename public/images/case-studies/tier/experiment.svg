@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" fill="none">
+  <rect width="800" height="500" rx="8" fill="#FFFFFF"/>
+  <text x="40" y="40" font-family="system-ui" font-size="18" font-weight="600" fill="#1A1A1A">TIER Miles A/B Test Results</text>
+  <text x="40" y="60" font-family="system-ui" font-size="11" fill="#6B6B6B">V3 experiment · 12-week cohort · Berlin, Paris, Munich</text>
+
+  <!-- Chart -->
+  <rect x="40" y="80" width="480" height="380" rx="8" fill="#F7F7F5" stroke="#E5E5E5"/>
+  <text x="60" y="108" font-family="system-ui" font-size="12" font-weight="600" fill="#1A1A1A">Weekly PAYG Rides per User</text>
+
+  <!-- Y axis -->
+  <text x="60" y="144" font-family="monospace" font-size="9" fill="#6B6B6B">5.0</text>
+  <text x="60" y="194" font-family="monospace" font-size="9" fill="#6B6B6B">4.0</text>
+  <text x="60" y="244" font-family="monospace" font-size="9" fill="#6B6B6B">3.0</text>
+  <text x="60" y="294" font-family="monospace" font-size="9" fill="#6B6B6B">2.0</text>
+  <text x="60" y="344" font-family="monospace" font-size="9" fill="#6B6B6B">1.0</text>
+
+  <!-- Grid lines -->
+  <line x1="90" y1="140" x2="500" y2="140" stroke="#E5E5E5" stroke-dasharray="4"/>
+  <line x1="90" y1="190" x2="500" y2="190" stroke="#E5E5E5" stroke-dasharray="4"/>
+  <line x1="90" y1="240" x2="500" y2="240" stroke="#E5E5E5" stroke-dasharray="4"/>
+  <line x1="90" y1="290" x2="500" y2="290" stroke="#E5E5E5" stroke-dasharray="4"/>
+  <line x1="90" y1="340" x2="500" y2="340" stroke="#E5E5E5" stroke-dasharray="4"/>
+  <line x1="90" y1="390" x2="500" y2="390" stroke="#E5E5E5"/>
+
+  <!-- Control line (grey) -->
+  <path d="M90 290 L130 288 L170 292 L210 286 L250 290 L290 294 L330 288 L370 292 L410 290 L450 294 L490 290" stroke="#CCCCCC" stroke-width="2" fill="none"/>
+  <!-- Variant line (teal) -->
+  <path d="M90 290 L130 282 L170 270 L210 258 L250 250 L290 240 L330 234 L370 228 L410 222 L450 218 L490 214" stroke="#00C9A7" stroke-width="2.5" fill="none"/>
+
+  <!-- Data points -->
+  <circle cx="250" cy="290" r="3" fill="#CCCCCC"/>
+  <circle cx="370" cy="292" r="3" fill="#CCCCCC"/>
+  <circle cx="490" cy="290" r="3" fill="#CCCCCC"/>
+  <circle cx="250" cy="250" r="3" fill="#00C9A7"/>
+  <circle cx="370" cy="228" r="3" fill="#00C9A7"/>
+  <circle cx="490" cy="214" r="3" fill="#00C9A7"/>
+
+  <!-- X axis labels -->
+  <text x="90" y="410" font-family="monospace" font-size="9" fill="#6B6B6B">W1</text>
+  <text x="170" y="410" font-family="monospace" font-size="9" fill="#6B6B6B">W3</text>
+  <text x="250" y="410" font-family="monospace" font-size="9" fill="#6B6B6B">W5</text>
+  <text x="330" y="410" font-family="monospace" font-size="9" fill="#6B6B6B">W7</text>
+  <text x="410" y="410" font-family="monospace" font-size="9" fill="#6B6B6B">W9</text>
+  <text x="480" y="410" font-family="monospace" font-size="9" fill="#6B6B6B">W12</text>
+
+  <!-- Legend -->
+  <rect x="90" y="430" width="12" height="3" rx="1.5" fill="#00C9A7"/>
+  <text x="110" y="434" font-family="system-ui" font-size="10" fill="#1A1A1A">TIER Miles (variant)</text>
+  <rect x="230" y="430" width="12" height="3" rx="1.5" fill="#CCCCCC"/>
+  <text x="250" y="434" font-family="system-ui" font-size="10" fill="#1A1A1A">Control</text>
+
+  <!-- Annotation -->
+  <rect x="380" y="200" width="110" height="24" rx="4" fill="#00C9A7"/>
+  <text x="392" y="216" font-family="system-ui" font-size="10" font-weight="600" fill="#1A1A1A">+10% rides ✓</text>
+
+  <!-- Right sidebar - stats -->
+  <rect x="544" y="80" width="216" height="380" rx="8" fill="#F7F7F5" stroke="#E5E5E5"/>
+  <text x="564" y="112" font-family="system-ui" font-size="13" font-weight="600" fill="#1A1A1A">Key Results</text>
+
+  <rect x="564" y="128" width="176" height="60" rx="6" fill="#FFF"/>
+  <text x="580" y="148" font-family="monospace" font-size="10" fill="#6B6B6B">PAYG Rides</text>
+  <text x="580" y="172" font-family="system-ui" font-size="22" font-weight="700" fill="#00C9A7">+10%</text>
+
+  <rect x="564" y="200" width="176" height="60" rx="6" fill="#FFF"/>
+  <text x="580" y="220" font-family="monospace" font-size="10" fill="#6B6B6B">M1 Retention</text>
+  <text x="580" y="244" font-family="system-ui" font-size="22" font-weight="700" fill="#00C9A7">+2pp</text>
+
+  <rect x="564" y="272" width="176" height="60" rx="6" fill="#FFF"/>
+  <text x="580" y="292" font-family="monospace" font-size="10" fill="#6B6B6B">Referral Growth</text>
+  <text x="580" y="316" font-family="system-ui" font-size="22" font-weight="700" fill="#00C9A7">2x</text>
+
+  <rect x="564" y="344" width="176" height="60" rx="6" fill="#FFF"/>
+  <text x="580" y="364" font-family="monospace" font-size="10" fill="#6B6B6B">Statistical Confidence</text>
+  <text x="580" y="388" font-family="system-ui" font-size="22" font-weight="700" fill="#1A1A1A">95%</text>
+
+  <rect x="564" y="420" width="176" height="28" rx="6" fill="#00C9A7" opacity="0.15"/>
+  <text x="580" y="438" font-family="system-ui" font-size="10" font-weight="600" fill="#00C9A7">✓ Rolled out to all markets</text>
+</svg>
