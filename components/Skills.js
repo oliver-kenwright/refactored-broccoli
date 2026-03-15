@@ -1,6 +1,7 @@
 "use client";
 
 import Reveal from "./ui/Reveal";
+import SectionLabel from "./ui/SectionLabel";
 
 const skillClusters = [
   {
@@ -83,9 +84,7 @@ export default function Skills() {
     <section className="py-20 md:py-28 px-6">
       <div className="mx-auto max-w-6xl">
         <Reveal>
-          <span className="font-mono text-xs text-text-muted uppercase tracking-widest">
-            Skill Set
-          </span>
+          <SectionLabel>04 — Skill Set</SectionLabel>
         </Reveal>
 
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

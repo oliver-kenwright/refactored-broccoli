@@ -1,6 +1,7 @@
 "use client";
 
 import Reveal from "./ui/Reveal";
+import SectionLabel from "./ui/SectionLabel";
 
 const principles = [
   {
@@ -34,9 +35,7 @@ export default function Principles() {
     <section id="approach" className="py-20 md:py-28 px-6 bg-bg-soft">
       <div className="mx-auto max-w-6xl">
         <Reveal>
-          <span className="font-mono text-xs text-text-muted uppercase tracking-widest">
-            How I Work
-          </span>
+          <SectionLabel>03 — How I Work</SectionLabel>
           <h2 className="font-display text-3xl md:text-4xl text-text mt-4">
             Four principles I come back to
           </h2>

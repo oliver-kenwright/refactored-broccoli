@@ -1,6 +1,7 @@
 "use client";
 
 import Reveal from "./ui/Reveal";
+import SectionLabel from "./ui/SectionLabel";
 
 const milestones = [
   { year: "2015", company: "Zalando", role: "Marketing Intern" },
@@ -27,9 +28,7 @@ export default function Timeline() {
     <section id="experience" className="py-20 md:py-28 px-6 bg-bg-soft">
       <div className="mx-auto max-w-6xl">
         <Reveal>
-          <span className="font-mono text-xs text-text-muted uppercase tracking-widest">
-            Career Arc
-          </span>
+          <SectionLabel>05 — Career Arc</SectionLabel>
           <h2 className="font-display text-3xl md:text-4xl text-text mt-4">
             Marketing &rarr; Growth &rarr; Product
           </h2>

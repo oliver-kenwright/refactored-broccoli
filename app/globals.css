@@ -11,10 +11,14 @@
   --color-accent-purple: #7C3AED;
   --color-accent-teal: #00C9A7;
   --color-border: #E5E5E5;
+  --color-border-secondary: #D4D4D4;
+  --color-background-secondary: #FAFAF8;
+  --color-text-tertiary: #999999;
 
   --font-display: "DM Serif Display", serif;
   --font-sans: "Sora", sans-serif;
   --font-mono: "JetBrains Mono", monospace;
+  --font-instrument: "Instrument Serif", serif;
 }
 
 html {
@@ -32,6 +36,51 @@ body {
   25% { transform: translateX(-8px); }
   50% { transform: translateX(8px); }
   75% { transform: translateX(-4px); }
+}
+
+/* Wavy underline tooltip trigger — desktop only */
+@media (min-width: 768px) {
+  .tooltip-trigger {
+    text-decoration-line: underline !important;
+    text-decoration-style: wavy !important;
+    text-decoration-color: var(--color-border-secondary);
+    text-underline-offset: 3px;
+  }
+}
+
+.tooltip-trigger {
+  position: relative;
+  display: inline;
+  cursor: default;
+}
+
+.tooltip-trigger .tooltip {
+  position: absolute;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  background: white;
+  border: 0.5px solid var(--color-border-secondary);
+  border-radius: 6px;
+  padding: 4px 10px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+  z-index: 10;
+  color: var(--color-text);
+}
+
+.tooltip-trigger:hover .tooltip {
+  opacity: 1;
+}
+
+@media (max-width: 767px) {
+  .tooltip-trigger .tooltip {
+    display: none;
+  }
 }
 
 /* Hide scrollbar for sliders */

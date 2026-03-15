@@ -1,4 +1,4 @@
-import { DM_Serif_Display, Sora, JetBrains_Mono } from "next/font/google";
+import { DM_Serif_Display, Sora, JetBrains_Mono, Instrument_Serif } from "next/font/google";
 import PasswordGate from "@/components/PasswordGate";
 import "./globals.css";
 
@@ -21,6 +21,14 @@ const jetbrainsMono = JetBrains_Mono({
   display: "swap",
 });
 
+const instrumentSerif = Instrument_Serif({
+  weight: "400",
+  style: ["normal", "italic"],
+  subsets: ["latin"],
+  variable: "--font-instrument",
+  display: "swap",
+});
+
 export const metadata = {
   title: "Oliver Kenwright — Senior Product Manager",
   description:
@@ -35,7 +43,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${dmSerif.variable} ${sora.variable} ${jetbrainsMono.variable}`}>
+    <html lang="en" className={`${dmSerif.variable} ${sora.variable} ${jetbrainsMono.variable} ${instrumentSerif.variable}`}>
       <body className="antialiased">
         <PasswordGate>
           {children}

@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Reveal from "./ui/Reveal";
 import PhotoGallery from "./ui/PhotoGallery";
+import SectionLabel from "./ui/SectionLabel";
 
 const experiments = [
   { title: "Drum Machine", description: "Interactive beat maker", href: "/playground/drum-machine" },
@@ -37,9 +38,7 @@ export default function Playground() {
     <section className="py-20 md:py-28 px-6">
       <div className="mx-auto max-w-6xl">
         <Reveal>
-          <span className="font-mono text-xs text-text-muted uppercase tracking-widest">
-            Playground
-          </span>
+          <SectionLabel>06 — Playground</SectionLabel>
           <h2 className="font-display text-3xl md:text-4xl text-text mt-4">
             {activeTab === "ai"
               ? "Building stuff"

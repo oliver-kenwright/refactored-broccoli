@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Reveal from "./ui/Reveal";
 import ImageSlider from "./ui/ImageSlider";
+import SectionLabel from "./ui/SectionLabel";
 
 const caseStudies = [
   {
@@ -208,9 +209,7 @@ export default function CaseStudies() {
     <section id="work" className="py-20 md:py-28 px-6">
       <div className="mx-auto max-w-6xl">
         <Reveal>
-          <span className="font-mono text-xs text-text-muted uppercase tracking-widest">
-            Selected Work
-          </span>
+          <SectionLabel>02 — Selected Work</SectionLabel>
         </Reveal>
 
         <div className="mt-12 flex flex-col gap-8">
