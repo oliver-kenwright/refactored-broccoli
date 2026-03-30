@@ -61,9 +61,11 @@ const caseStudies = [
       { value: "0\u21921", label: "Analytics stack" },
     ],
     images: [
-      { src: "/images/case-studies/momatu/curation.svg", alt: "ML-powered photo curation" },
-      { src: "/images/case-studies/momatu/jtbd.svg", alt: "JTBD research findings" },
-      { src: "/images/case-studies/momatu/activation.svg", alt: "New user activation funnel" },
+      { src: "/images/case-studies/momatu/cover.png", alt: "Moments app — AI-powered photo experience" },
+      { src: "/images/case-studies/momatu/executive-summary.png", alt: "Executive summary — AI photo organisation capabilities" },
+      { src: "/images/case-studies/momatu/pmf-goal.png", alt: "Product-market fit goal and revenue targets" },
+      { src: "/images/case-studies/momatu/timeline.png", alt: "Concept to beta release timeline" },
+      { src: "/images/case-studies/momatu/fake-door.png", alt: "Fake door experiment testing user intent" },
     ],
   },
   {
@@ -91,9 +93,11 @@ const caseStudies = [
       { value: "\u20AC5.3m", label: "eMoped LTV" },
     ],
     images: [
-      { src: "/images/case-studies/tier/loyalty.svg", alt: "TIER Miles loyalty program" },
-      { src: "/images/case-studies/tier/experiment.svg", alt: "A/B test experiment framework" },
-      { src: "/images/case-studies/tier/pricing.svg", alt: "Multi-modal revenue by vehicle type" },
+      { src: "/images/case-studies/tier/cover.png", alt: "The State of TIER Rewards" },
+      { src: "/images/case-studies/tier/problem.png", alt: "Problem definition — aspirational problem and opinionated solution" },
+      { src: "/images/case-studies/tier/benchmarking.png", alt: "Loyalty program benchmarking across mobility apps" },
+      { src: "/images/case-studies/tier/mvp-decision.png", alt: "MVP decision matrix for loyalty program mechanics" },
+      { src: "/images/case-studies/tier/features-v12.png", alt: "TIER Rewards v1.2 features and UX improvements" },
     ],
   },
 ];
